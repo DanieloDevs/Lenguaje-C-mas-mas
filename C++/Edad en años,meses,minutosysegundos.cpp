@@ -1,3 +1,4 @@
+// Este Programa te pedira tu año de nacimiento descrita por cuatro digitos, una vez ingresada te regresara tu edad en: (años, meses, dias, horas, minutos y segundos
 //introducimos nuestra libreria
 #include "iostream"
 using namespace std;
