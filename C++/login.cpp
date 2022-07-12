@@ -1,5 +1,12 @@
 //login en c++
 
+ ***********************************************************
+ *Error dentro de la comprobación de usuario		   *
+ *no verifica si es o no el verdadero usuario y contraeña  *
+ ***********************************************************
+
+
+
 //introducimos librerias
 #include <iostream>
 #include <conio.h>
@@ -45,7 +52,7 @@ int main(){
 		if( usuario==User && password==Pass ){
 		ingresa = true;
 		}else{
-			cout<<"\n\n\n el usuario y/o contrase�a son incorrectos"<<endl;
+			cout<<"\n\n\n el usuario y/o contraseña son incorrectos"<<endl;
 			cin.get();
 			contador++;
 		}
